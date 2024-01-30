@@ -1,3 +1,4 @@
+import Post from './components/posts/Posts';
 import UsersList from './components/users/usersList';
 import './styles/App.css';
 
@@ -8,6 +9,7 @@ export default function App() {
       <h1>Hello, world!</h1>
       <hr />
       <UsersList />
+      <Post />
     </div>
   );
 }
